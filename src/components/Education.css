@@ -1,0 +1,68 @@
+.education{
+    min-height:100vh;
+    background:#c5e4c2;
+    padding:80px 8%;
+    color:rgb(18, 96, 15);
+}
+
+.education h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:60px;
+    position:relative;
+}
+
+.education h2::after{
+    content:"";
+    width:100px;
+    height:4px;
+    background:#1d0202;
+    display:block;
+    margin:12px auto 0;
+    border-radius:10px;
+}
+
+.edu-container{
+    max-width:900px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.edu-card{
+    background:#34754e;
+    padding:25px;
+    border-radius:12px;
+    border-left:4px solid #163f09;
+    transition:0.3s;
+    
+}
+
+.edu-card:hover{
+    transform:translateX(8px);
+}
+
+.edu-card h3{
+    color:#edfaff;
+    margin-bottom:10px;
+    font-size:25px;
+}
+
+.inst{
+    color:#cbd5e1;
+      font-size:24px;
+
+    margin-bottom:6px;
+}
+
+.dur{
+    color:#9eb7da;
+    font-size:14px;
+    margin-bottom:6px;
+}
+
+.score{
+    color:#ffffff;
+    font-weight:600;
+}

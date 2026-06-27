@@ -1,0 +1,98 @@
+.projects{
+    min-height:100vh;
+    background:#0f172a;
+    padding:80px 8%;
+    color:white;
+}
+
+.projects h2{
+    text-align:center;
+    font-size:52px;
+    margin-bottom:60px;
+    position:relative;
+}
+
+.projects h2::after{
+    content:"";
+    width:100px;
+    height:4px;
+    background:#38bdf8;
+    display:block;
+    margin:12px auto 0;
+    border-radius:10px;
+}
+
+.project-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap:30px;
+}
+
+/* CARD STYLE */
+.project-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    transition:0.3s ease;
+    border:1px solid transparent;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+    border:1px solid #38bdf8;
+    box-shadow:0 10px 25px rgba(56,189,248,0.2);
+}
+
+/* TITLE */
+.project-card h3{
+    color:#5cb3d8;
+    font-size:30px;
+    margin-bottom:12px;
+}
+
+/* DESCRIPTION */
+.project-card p{
+    color:#cbd5e1;
+    line-height:1.6;
+    margin-bottom:10px;
+}
+
+/* TECH STACK */
+.tech{
+    font-size:14px;
+    color:#94a3b8;
+    margin-bottom:15px;
+}
+
+/* BUTTONS */
+.buttons{
+    display:flex;
+    gap:12px;
+}
+
+.buttons button{
+    padding:8px 14px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+    transition:0.3s;
+}
+
+.buttons button:first-child{
+    background:#334155;
+    color:white;
+}
+
+.buttons button:first-child:hover{
+    background:#475569;
+}
+
+.buttons button:last-child{
+    background:#768489;
+    color:white;
+}
+
+.buttons button:last-child:hover{
+    background:#0ea5e9;
+}
