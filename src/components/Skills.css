@@ -58,3 +58,17 @@
     color:#333;
     text-align:center;
 }
+@media(max-width:576px){
+
+    .skills{
+        padding:60px 20px;
+    }
+
+    .skills h2{
+        font-size:34px;
+    }
+
+    .skill-card{
+        padding:18px;
+    }
+}

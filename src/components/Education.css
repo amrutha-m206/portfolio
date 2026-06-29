@@ -66,3 +66,17 @@
     color:#ffffff;
     font-weight:600;
 }
+@media(max-width:576px){
+
+    .education{
+        padding:60px 20px;
+    }
+
+    .education h2{
+        font-size:34px;
+    }
+
+    .edu-card{
+        padding:20px;
+    }
+}

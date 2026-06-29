@@ -43,28 +43,24 @@
     box-shadow:0 10px 25px rgba(56,189,248,0.2);
 }
 
-/* TITLE */
 .project-card h3{
     color:#5cb3d8;
     font-size:30px;
     margin-bottom:12px;
 }
 
-/* DESCRIPTION */
 .project-card p{
     color:#cbd5e1;
     line-height:1.6;
     margin-bottom:10px;
 }
 
-/* TECH STACK */
 .tech{
     font-size:14px;
     color:#94a3b8;
     margin-bottom:15px;
 }
 
-/* BUTTONS */
 .buttons{
     display:flex;
     gap:12px;
@@ -95,4 +91,22 @@
 
 .buttons button:last-child:hover{
     background:#0ea5e9;
+}
+@media(max-width:576px){
+
+    .projects{
+        padding:60px 20px;
+    }
+
+    .projects h2{
+        font-size:34px;
+    }
+
+    .buttons{
+        flex-direction:column;
+    }
+
+    .buttons button{
+        width:100%;
+    }
 }

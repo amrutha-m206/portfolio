@@ -41,3 +41,41 @@
 .about-text strong {
     color: #d7cfe9;
 }
+@media(max-width:992px){
+
+    .about-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .about-image img{
+        width:280px;
+    }
+
+    .about-content{
+        width:100%;
+    }
+}
+
+@media(max-width:576px){
+
+    .about{
+        padding:60px 20px;
+    }
+
+    .about h2{
+        font-size:34px;
+    }
+
+    .about-content h3{
+        font-size:28px;
+    }
+
+    .about-content p{
+        font-size:17px;
+    }
+
+    .about-image img{
+        width:220px;
+    }
+}

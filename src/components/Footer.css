@@ -53,3 +53,18 @@
     color:#94a3b8;
     font-size:14px;
 }
+
+@media(max-width:576px){
+
+    .footer{
+        padding:35px 20px;
+    }
+
+    .footer h2{
+        font-size:28px;
+    }
+
+    .social-icons{
+        gap:18px;
+    }
+}

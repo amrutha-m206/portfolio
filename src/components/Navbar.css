@@ -32,3 +32,46 @@
 .nav-links a:hover {
     color: #38bdf8;
 }
+/* Hamburger */
+.menu-icon{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+}
+
+/* Mobile */
+@media(max-width:992px){
+
+    .navbar{
+        padding:0 25px;
+    }
+
+    .menu-icon{
+        display:block;
+    }
+
+    .nav-links{
+        position:absolute;
+        top:70px;
+        left:-100%;
+        width:100%;
+        background:#0f172a;
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:25px;
+
+        padding:30px 0;
+
+        transition:0.3s;
+    }
+
+    .nav-links.active{
+        left:0;
+    }
+
+    .nav-links a{
+        font-size:22px;
+    }
+}
